@@ -14,6 +14,7 @@
     <ProjectGuid>{BAA6955C-6A47-4915-B6FA-D411A6741C6A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>KSISLab1</RootNamespace>
+    <ProjectName>CSAN.Lab1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -83,7 +84,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="KSIS.Lab1.cpp" />
+    <ClCompile Include="CSAN.Lab1.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
