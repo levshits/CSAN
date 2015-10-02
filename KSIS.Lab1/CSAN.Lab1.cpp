@@ -231,10 +231,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	if (EnumerateFunc(lpnr) == FALSE) {
 		printf("Call to EnumerateFunc failed\n");
-		return 1;
 	}
-	else
-		return 0;
 	system("pause");
 	return 0;
 
